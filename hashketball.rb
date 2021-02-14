@@ -162,9 +162,9 @@ def team_colors(team_name)
 end
 
 def team_name
-  team_names = []
+  teams = []
   game_hash.each do |location|
-    team_names.push(location[:team_name])
+    teams << location[:team_name])
   end
-  team_names
+  teams
 end
