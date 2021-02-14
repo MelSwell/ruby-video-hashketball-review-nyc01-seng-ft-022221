@@ -128,6 +128,8 @@ def game_hash
 end
 
 # Write code here
-def get_play_stats
+def get_player_stats
   puts game_hash
 end
+
+get_player_stats
