@@ -130,7 +130,8 @@ end
 
 def get_player_stats(player_name)
   game_hash.each do |location, team_info|
-    binding.pry
+    team_info.each do |k, v|
+      binding.pry
   end
 end
 get_player_stats("roger")
