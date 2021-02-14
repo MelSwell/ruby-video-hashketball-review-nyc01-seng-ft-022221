@@ -130,7 +130,7 @@ end
 
 def get_player_stats(player_name)
   game_hash.each do |location, team_details|
-    team_info[:players].each do |player_details|
+    team_details[:players].each do |player_details|
       binding.pry
     end
   end
