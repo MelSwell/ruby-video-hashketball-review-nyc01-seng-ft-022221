@@ -155,3 +155,8 @@ def shoe_size(player_name)
   player_details = get_player_details_by_name(player_name)
   player_details[:shoe]
 end
+
+def team_colors(team_name)
+  team_details = get_team_details_by_name(team_name)
+  team_details[:colors]
+end
