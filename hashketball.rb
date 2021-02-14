@@ -160,3 +160,11 @@ def team_colors(team_name)
   team_details = get_team_details_by_name(team_name)
   team_details[:colors]
 end
+
+def team_name
+  team_names = []
+  game_hash.each do |location|
+    team_names << location[:team_name]
+  end
+  team_names
+end
