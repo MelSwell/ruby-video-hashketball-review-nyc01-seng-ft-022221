@@ -143,6 +143,7 @@ def get_team_details_by_name(team_name)
     if team_details[:team_name] == team_name
       return team_details
     end
+  end
 end
 
 puts get_team_details_by_name("Brooklyn Nets")
