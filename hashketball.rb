@@ -146,7 +146,7 @@ def get_team_details_by_name(team_name)
   end
 end
 
-num_points_scored(player_name)
+def num_points_scored(player_name)
   player_details = get_player_details_by_name(player_name)
   player_details[:points]
 end
