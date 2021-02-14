@@ -163,9 +163,9 @@ end
 
 def team_names
   teams = []
-  game_hash.each do |location|
+  game_hash.each do |location, team_details|
     binding.pry
-    teams << location[:team_name]
+    teams << team_details[:team_name]
   end
   teams
 end
