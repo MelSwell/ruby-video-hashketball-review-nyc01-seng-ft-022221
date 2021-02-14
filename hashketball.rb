@@ -146,4 +146,4 @@ def get_team_details_by_name(team_name)
   end
 end
 
-puts get_team_details_by_name("Charlotte Hornets")
+puts get_team_details_by_name("Charlotte Hornetssss")
