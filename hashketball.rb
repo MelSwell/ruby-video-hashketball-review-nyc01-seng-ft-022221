@@ -1,4 +1,5 @@
 # Write your code below game_hash
+require 'pry'
 
 def game_hash
   {
@@ -127,9 +128,9 @@ def game_hash
   }
 end
 
-# Write code here
-def get_player_stats
-  puts game_hash
+def get_player_stats(player_name)
+  game_hash.each do |location, team_info|
+    binding.pry
+  end
 end
 
-get_player_stats
