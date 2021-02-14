@@ -173,6 +173,7 @@ def player_numbers(team_name)
   team_details = get_team_details_by_name(team_name)
   jersey_nums = []
   team_details[:players].each do |player_details|
-    binding.pry
+    jersey_nums << player_details[:shoe]
   end
+  jersey_nums
 end
