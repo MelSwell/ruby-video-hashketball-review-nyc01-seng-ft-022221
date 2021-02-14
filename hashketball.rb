@@ -168,3 +168,10 @@ def team_names
   end
   teams
 end
+
+def player_numbers(team_name)
+  team_details = get_team_details_by_name(team_name)
+  team_details[:players].each do
+    binding.pry
+  end
+end
