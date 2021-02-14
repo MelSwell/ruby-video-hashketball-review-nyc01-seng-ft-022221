@@ -128,13 +128,13 @@ def game_hash
   }
 end
 
-def get_player_stats(player_name)
+def get_player_details_by_name(player_name)
   game_hash.each do |location, team_details|
     team_details[:players].each do |player_details|
       if player_details[:player_name] == player_name
-        binding.pry
+        return player_details
       end  
     end
   end
 end
-get_player_stats("Alan Anderson")
+get_player_details_by_name("Alan Anderson")
