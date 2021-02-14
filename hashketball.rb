@@ -137,4 +137,4 @@ def get_player_details_by_name(player_name)
     end
   end
 end
-get_player_details_by_name("Alan Anderson")
+puts get_player_details_by_name("Alan Anderson")
