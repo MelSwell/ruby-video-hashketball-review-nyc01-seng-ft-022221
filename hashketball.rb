@@ -132,7 +132,7 @@ def get_player_details_by_name(player_name)
   game_hash.each do |location, team_details|
     team_details[:players].each do |player_details|
       if player_details[:player_name] == player_name
-        player_details
+        return player_details
       end  
     end
   end
