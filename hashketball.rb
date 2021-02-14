@@ -150,3 +150,8 @@ def num_points_scored(player_name)
   player_details = get_player_details_by_name(player_name)
   player_details[:points]
 end
+
+def shoe_size(player_name)
+  player_details = get_player_details_by_name(player_name)
+  player_details[:shoe]
+end
