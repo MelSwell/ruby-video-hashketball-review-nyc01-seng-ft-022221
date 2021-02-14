@@ -146,4 +146,3 @@ def get_team_details_by_name(team_name)
   end
 end
 
-puts get_player_details_by_name("Bigfoot")
