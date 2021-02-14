@@ -137,4 +137,12 @@ def get_player_details_by_name(player_name)
     end
   end
 end
-puts get_player_details_by_name("Bismack Biyombo")
+
+def get_team_details_by_name(team_name)
+  game_hash.each do |location, team_details|
+    if team_details[:team_name] == team_name
+      return team_details
+    end
+end
+
+puts get_team_details_by_name("Brooklyn Nets")
